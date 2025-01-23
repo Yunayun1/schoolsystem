@@ -1,0 +1,56 @@
+/*schedule*/
+.scheduleContent {
+    margin: 40px 20px;
+    text-align: center;
+  }
+  
+  .scheduleTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .scheduleTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .scheduleTable th,
+  .scheduleTable td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .scheduleTable th {
+    background-color: #f4f4f4;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .scheduleTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .scheduleTable tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Noted Section Styles */
+  .notedSection {
+    margin-top: 30px;
+    font-size: 1.1rem;
+    font-weight: normal;
+  }
+  
+  .notedTitle {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .notedDescription {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    font-style: italic;
+  }

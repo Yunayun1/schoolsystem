@@ -1,0 +1,188 @@
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left {
+    flex: 1;
+    background-color: #812121;
+    color: white;
+    padding: 2rem;
+  }
+  
+  .logo {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .left h1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .left h2 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .welcomeText {
+    margin-top: 2rem;
+    line-height: 1.8;
+  }
+  
+  .right {
+    flex: 1;
+    background-color: #f5f7ff;
+    color: black;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .right h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputGroup label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .inputGroup input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .inputGroup input[type="password"] {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  
+  .dualInput {
+    display: flex;
+    gap: 0; /* No space between inputs */
+  }
+  
+  .dualInput input {
+    flex: 1; /* Ensure equal width for both inputs */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 0; /* Remove border-radius for the inner edges */
+    font-size: 1rem;
+  }
+  
+  .dualInput input:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: none; /* Remove right border to join inputs */
+  }
+  
+  .dualInput input:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .gender {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .gender label {
+    font-weight: normal;
+  }
+  
+  .birthDate {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .birthDate input {
+    width: 50px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .backButton {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    color:white;
+    background-color: #812121;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .backButton:hover {
+    background-color: #500707;
+  }
+  
+  .submitButton {
+    padding: 10px 20px;
+    background-color: #812121;
+    text-align: center;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  
+  }
+  
+  .submitButton:hover {
+    background-color: #500707;
+  }
+  
+  .right p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  .right p a {
+    color: #812121;
+    text-decoration: none;
+  }
+  
+  .right p a:hover {
+    text-decoration: underline;
+  }
+  
+  .errorMessage {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .successMessage {
+    color: green;
+    margin-top: 10px;
+  }

@@ -1,0 +1,46 @@
+/* /pages/home/home.module.css */
+.dashboard {
+  display: flex;
+  gap: 1cm; /* Adds 1cm space between boxes */
+  flex-wrap: wrap; /* Ensures that if the screen is small, the boxes will wrap */
+  justify-content: flex-start; /* Aligns the boxes to the left */
+  margin-top:80px; 
+}
+
+.box {
+  width: calc(25% - 0.75cm); /* Makes sure each box takes up 25% of the container's width minus spacing */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+  text-align: center;
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.box:hover {
+  transform: translateY(-10px); /* Hover effect for better interactivity */
+}
+
+.boxContent h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.number {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.moreInfo {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.moreInfo:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}

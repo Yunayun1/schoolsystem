@@ -1,0 +1,34 @@
+.topbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  color: rgb(0, 0, 0);
+  position: relative;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  flex-grow: 1; /* Push title to take up available space */
+}
+
+.adminBox {
+  position: absolute;
+  top: calc(100% + 20px); /* 20px below the topbar */
+  left: 0px; /* Align to the left (similar to the padding of the topbar) */
+  background-color: white;
+  color: #34495e;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-align: left; /* Left-align text */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1; /* Ensures the box appears on top */
+  width: calc(100% - 40px); /* Stretch from sidebar to end, accounting for padding */
+}

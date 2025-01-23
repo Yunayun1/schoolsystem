@@ -1,0 +1,50 @@
+/* Container for the whole page */
+.container {
+    padding: 20px;
+  }
+  
+  /* Wrapper to center the box */
+  .centerWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Adjust height if necessary */
+  }
+  
+  .box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .yearButton {
+    background-color: #d44949;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .yearButton:hover {
+    background-color: #45a049;
+  }
+  

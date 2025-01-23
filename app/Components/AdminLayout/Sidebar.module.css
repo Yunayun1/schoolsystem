@@ -1,0 +1,42 @@
+.sidebar {
+  width: 250px;
+  background-color: #812121;
+  color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  margin: 40px 0;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.menu li:hover {
+  color: #000000;
+}
+
+.link {
+  color: white;  /* Default color for links */
+  text-decoration: none; /* Remove underline */
+  padding: 10px;
+  display: block;
+  border-radius: 5px;
+}
+
+.link:hover {
+  background-color: black; /* Background color on hover */
+  color: white;
+}
+
+.link:active {
+  background-color: #9c2b2b;  /* Background color when clicked */
+}

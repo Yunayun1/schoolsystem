@@ -1,0 +1,82 @@
+/* Main container for the page */
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Left section: Login */
+  .left {
+    flex: 1;
+    background-color: #812121;
+    color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .left h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .left h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .welcomeText {
+    margin-top: 2rem;
+    line-height: 1.8;
+    text-align: left;
+  }
+  
+  /* Right section: Register */
+  .right {
+    flex: 1;
+    background-color: white;
+    color: black;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .right h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .right p {
+    margin-bottom: 2rem;
+    color: #181717;
+  }
+  
+  /* Buttons in the right section */
+  .buttonContainer {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #812121;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #500707;
+  }
+  

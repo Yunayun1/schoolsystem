@@ -1,0 +1,92 @@
+/* Hero section styles */
+.heroSection {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .heroTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgba(160, 0, 0, 0.9);
+    margin-bottom: 20px;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: rgba(160, 0, 0, 0.9);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1rem;
+  }
+  
+  .footerLinks {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .footerLinks a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .footerLinks a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Button styles for call-to-actions */
+  .button {
+    background-color: rgba(160, 0, 0, 0.9);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .button:hover {
+    background-color: white;
+    color: rgba(160, 0, 0, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+  }
+  
+  .button:active {
+    transform: translateY(0);
+  }
+  
+  /* Section titles */
+  .sectionTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgba(160, 0, 0, 0.9);
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navList {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .heroTitle {
+      font-size: 2rem;
+    }
+  
+    .heroSubtitle {
+      font-size: 1rem;
+    }
+  
+    .footerLinks {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  

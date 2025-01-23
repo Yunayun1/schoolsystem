@@ -1,0 +1,166 @@
+/* Create a new file: components/ProfileCard.module.css */
+
+.card {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    max-width: 2400px;
+    width: 100%;
+  }
+  
+  .profileSection {
+    padding: 20px;
+    background-color: #f0f8ff;
+    text-align: center;
+    width: 35%;
+  }
+  
+  .imageContainer {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #e0e0e0;
+  }
+  
+  .placeholderImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #676161;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .profileImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .uploadInput {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .name {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  .role {
+    font-size: 28px;
+    color: #777777;
+  }
+  
+  .location {
+    font-size: 28px;
+    color: #777777;
+  }
+  
+  .buttonGroup {
+    margin-top: 20px;
+  }
+  
+  .followButton,
+  .messageButton {
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+    font-size: 28px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .infoSection {
+    padding: 40px;
+    width: 65%;
+  }
+  
+  .infoSection p {
+    font-size: 28px;
+    margin: 16px 0;
+  }
+  
+  .editButton {
+    padding: 16px 32px;
+    background-color: #ff3636;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .centerContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px; /* Adjust this based on your design */
+    background-color: #f9f9f9; /* Optional background color */
+  }
+  
+  .title {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Add to your account.module.css file */
+  .infoTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .infoTable td {
+    padding: 12px;
+    font-size: 24px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .infoTable td:first-child {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .infoTable td:last-child {
+    color: #555;
+  }
+  
+  /* Add to your account.module.css */
+  .nameInput {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    border: 2px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+  }
+  
+  .saveButton {
+    padding: 16px 32px;
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  

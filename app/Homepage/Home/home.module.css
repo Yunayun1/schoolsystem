@@ -1,0 +1,94 @@
+/*Home*/
+
+.eventsSection {
+    margin: 40px auto;
+    text-align: center;
+  }
+  
+  .eventsTitle {
+    font-size: 3rem;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 30px;
+  }
+  
+  .eventsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .eventCard {
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 30px; /* Adjust padding to fit content properly */
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .eventImage {
+    border-radius: 50px;
+    margin-bottom: 20px; /* Reduced margin */
+  }
+  
+  .eventTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #00a2e8;
+    margin-bottom: 5px;
+  }
+  
+  /* Updated eventDetail to keep items on the same line */
+  .eventDetail {
+    display: inline-block; /* Keep the elements inline */
+    margin: 8px 0;
+    font-size: 2rem;
+  }
+  
+  .eventDetail span {
+    margin-right: 1px; /* Add space between the icon and text */
+  }
+  
+  .navigationButton {
+    font-size: 4rem;
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+  }
+  
+  .navigationButton:hover {
+    color: darkred;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .footerContent {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footerLinks {
+    margin-top: 10px;
+  }
+  
+  .footerLink {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  .footerLink:hover {
+    text-decoration: underline;
+    color: #ff3e3e;
+  }
+  

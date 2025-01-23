@@ -1,0 +1,82 @@
+/* .container remains unchanged */
+.container {
+    width: 100%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* .header remains unchanged */
+  .header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('/bg.jpg') no-repeat center;
+    background-size: cover;
+    height: 330px;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .title {
+    font-size: 5rem;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
+  }
+  
+  /* Navbar and list remain unchanged */
+  .navbar {
+    background-color: rgba(160, 0, 0, 0.9);
+    padding: 17px 0;
+  }
+  
+  .navList {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navList li {
+    margin: 0 50px;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  /* Hover and focus effects remain unchanged */
+  .navList li:hover,
+  .navList li:focus-within {
+    background-color: white;
+    color: rgba(160, 0, 0, 0.9);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+  }
+  
+  .navList li:hover::after,
+  .navList li:focus-within::after {
+    content: '';
+    position: absolute;
+    border: white;
+    border-radius: 20px;
+  }
+  
+  /* Link styles: Remove underline and change text color */
+  .navItem {
+    text-decoration: none;   /* Remove underline */
+    color: inherit;          /* Inherit white color from li */
+  }
+  
+  .navItem:hover,
+  .navItem:focus {
+    color: rgba(160, 0, 0, 0.9); /* Change color on hover */
+  }

@@ -1,0 +1,69 @@
+/* Help style */
+.helpSection {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .heroContainer {
+    background-color: #160e1d;
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .helpContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .helpCategory {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 300px;
+    text-align: left;
+  }
+  
+  .helpCategoryTitle {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #160e1d;
+  }
+  
+  .helpCategoryDescription {
+    font-size: 1.1rem;
+    color: #777;
+    margin-top: 15px;
+  }
+  
+  .helpLink {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #a00000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .helpLink:hover {
+    background-color: #8b0000;
+  }
+  

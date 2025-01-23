@@ -1,0 +1,56 @@
+/* GPA style */
+/* firstYear/firstYear.module.css */
+.container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .transcriptContainer {
+    margin-top: 20px;
+  }
+  
+  .studentInfo {
+    display: flex;
+    justify-content: flex-start; /* Aligns content to the left */
+    margin-bottom: 15px;
+  }
+  
+  .studentID, .academicYear {
+    font-weight: bold;
+    margin-right: 20px; /* Add some space between ID and academic year */
+  }
+  
+  .transcriptTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .transcriptTable th, .transcriptTable td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .transcriptTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .noted {
+    margin-top: 30px;
+    font-size: 1.1rem;
+  }
+  
+  .notedColumns {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .leftColumn, .rightColumn {
+    width: 45%;
+  }
+  
+  
