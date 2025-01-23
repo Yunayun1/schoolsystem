@@ -1,6 +1,6 @@
 import Header from '../Combine/Header';
 import Navbar from '../Combine/Navbar';
-import styles from '../schedule/schedule.module.css'; // Import styles from the Components/Styles
+import styles from './schedule.module.css'; // Import styles from the Components/Styles
 
 const Homepage = () => {
   // Example schedule data, with timeslots for each day (Monday to Saturday)

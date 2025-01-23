@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import styles from './Login.module.css';
+import styles from './login.module.css';
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation'; // Add the useRouter hook

@@ -2,7 +2,7 @@
 
 import React from 'react';
 import AdminLayout from '../AdminLayout/adminLayout';
-import styles from './addTeacher.module.css';
+import styles from './AddTeacher.module.css';
 
 const AddTeacherPage = () => {
   return (
